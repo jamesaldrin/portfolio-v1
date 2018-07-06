@@ -2,7 +2,7 @@ body {
     font-family:'Montserrat', sans-serif;
     color: #ffffff;
     line-height: 1;
-    font-size: 14px;
+    font-size: 24px;
     font-weight: normal;
 }
 
@@ -15,11 +15,11 @@ dl, ol, ul {
 
 #navi {
     position: fixed;
-    width: 50%;
+    width: 25%;
 }
 
 #nav {
-    width: 50%;
+    width: 25%;
     height: 100%;
     position: fixed;
     top: 0;
@@ -49,14 +49,17 @@ a, a:link, a:active, a:focus, a:visited {
     cursor: pointer;
     outline: none;
 }
+a:hover {
+    color: rgb(182, 0, 0);
+}
 
 .uppercase {
-    text-transform: uppercase;
+    text-transform: lowercase;
     line-height: 20px;
 }
 
 .centertext {
-    text-align: center;
+    text-align: right;
 }
 
 #nav .table {
@@ -84,10 +87,10 @@ a, a:link, a:active, a:focus, a:visited {
 #mainContent {
     margin: 0px auto;
     padding: 60px 40px;
-    color: #212121;
+    color: #384648;
     float: right;
     height: 100vh;
-    width: 50%;
+    width: 75%;
     background-color: #f1f1f1;
 }
 
@@ -99,4 +102,20 @@ a, a:link, a:active, a:focus, a:visited {
     padding-top: 40px;
     text-align: center;
     font-size: 24px;
+}
+
+.card {
+    margin: 8px;
+    width: 30%;
+    float: left;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+p {
+    font-size: 12px;
+    font-weight: lighter;
 }
